@@ -447,7 +447,7 @@ const Home = () => {
               <div className="flex items-center justify-between">
                 <h2 className="font-semibold text-rose-400">StayEase Space</h2>
                 <a
-                  href="https://github.com/rangari-rani/Accomodation-companion"
+                  href="https://github.com/rangari-rani/AccommodationCompanion"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] hover:bg-rose-200 transition"
@@ -461,7 +461,7 @@ const Home = () => {
                   Reactjs | Spring Boot
                 </p>
                 <a
-                  href="https://accomodation-companion-mx31.vercel.app/"
+                  href="https://accommodation-companion.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] hover:bg-rose-200 transition"
@@ -515,14 +515,14 @@ const Home = () => {
         <form onSubmit={onSubmit} className="max-w-2xl mx-auto ">
           <div className=" grid grid-cols-auto gap-6 mt-10 mb-8">
             <input
-            name="name"
+              name="name"
               required
               type="text"
               placeholder="Enter your name"
               className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
             />
             <input
-            name="email"
+              name="email"
               required
               type="email"
               placeholder="Enter your email"
@@ -530,7 +530,7 @@ const Home = () => {
             />
           </div>
           <textarea
-          name="message"
+            name="message"
             required
             rows="6"
             placeholder="Enter your message"
@@ -540,7 +540,7 @@ const Home = () => {
             type="submit"
             className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover"
           >
-            Send Message 
+            Send Message
             <img src={rightarrowhite} alt="" className="w-4" />
           </button>
         </form>
