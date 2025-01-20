@@ -397,7 +397,7 @@ const Home = () => {
                   Reactjs | Spring Boot
                 </p>
                 <a
-                  href="https://artisans-eight.vercel.app/"
+                  href="https://artisans-collective.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] hover:bg-rose-200 transition"
